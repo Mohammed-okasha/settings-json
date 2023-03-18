@@ -1,0 +1,156 @@
+{
+  //? Vs Code Style ===================
+  "workbench.iconTheme": "material-icon-theme",
+  "git.suggestSmartCommit": false,
+  "git.confirmSync": false,
+  "cSpell.advanced.feature.useReferenceProviderWithRename": true,
+  "window.zoomLevel": 2,
+  "files.trimTrailingWhitespace": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "explorer.compactFolders": false,
+  //? Editor Format & Cursor ================
+  // "editor.fontSize": 14,
+  // "editor.fontFamily": "JetBrains Mono",
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": true,
+  "editor.wordWrap": "off",
+  "editor.lineNumbers": "on",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "blink",
+  "editor.cursorStyle": "line",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.renderWhitespace": "all",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.glyphMargin": false,
+  "editor.folding": true,
+  "editor.guides.indentation": true,
+  "editor.suggestSelection": "first",
+  "editor.codeLens": true,
+  "editor.renderControlCharacters": false,
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  "editor.renderLineHighlight": "all",
+  //? Zen Mode =====================
+  "zenMode.hideTabs": true,
+  "zenMode.hideLineNumbers": false,
+  // ? Auto Format =====================
+  "editor.formatOnPaste": true, // format code on paste
+  "editor.formatOnType": true, // format code as you type
+  "editor.formatOnSave": true,
+  "files.trimFinalNewlines": true,
+  "auto-rename-tag.activationOnLanguage": ["*"],
+  //? Emmet =====================================================
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+  "emmet.excludeLanguages": ["markdown"],
+  "javascript.preferences.jsxAttributeCompletionStyle": "auto",
+  "typescript.preferences.jsxAttributeCompletionStyle": "auto",
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  //? JS And TS Hints ==========================================================
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "javascript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+
+  "javascript.inlayHints.enumMemberValues.enabled": true,
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  //? Theme ==========================================================
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.editor.scrollToSwitchTabs": true,
+  "workbench.editor.tabSizing": "shrink",
+  "editor.scrollbar.verticalScrollbarSize": 12,
+  "workbench.colorCustomizations": {
+    "tab.activeBackground": "#393d4a",
+    "tab.hoverBackground": "#393d4a",
+    "tab.inactiveBackground": "#2e323de3",
+    "tab.activeForeground": "#fff",
+    "tab.hoverForeground": "#fff",
+    "tab.activeBorder": "#d19a66d6",
+    "tab.hoverBorder": "#d19a66d6",
+    // "breadcrumb.background": "#2e323de3",
+    "editorGroupHeader.tabsBackground": "#2e323de3",
+    "activityBar.background": "#363b47",
+    "sideBar.background": "#282c34",
+    "sideBarSectionHeader.background": "#2e323de3",
+    "list.hoverBackground": "#273e77d0",
+    "list.hoverForeground": "#fff",
+    "list.activeSelectionBackground": "#273e77d0",
+    "list.activeSelectionForeground": "#ffffffe3",
+    "editorSuggestWidget.selectedBackground": "#273e77d0",
+    "editorSuggestWidget.highlightForeground": "#ffffffe3",
+    "[One Dark Pro Darker]": {
+      "editor.lineHighlightBackground": "#00000000",
+      // "editor.lineHighlightBorder": "#4a4a4a1f",
+      "editor.wordHighlightBorder": "#00000000",
+      "editor.wordHighlightStrongBorder": "#00000000",
+      "editor.wordHighlightTextBorder": "#00000000",
+      "editor.selectionHighlightBorder": "#00000000",
+      "editorBracketMatch.background": "#00000000",
+      "editorBracketMatch.border": "#00000000",
+      "editorWidget.background": "#282c34",
+      "statusBar.background": "#363b47",
+      "statusBar.focusBorder": "#00000000",
+      "scrollbarSlider.background": "#474d5ca1",
+      "titleBar.activeBackground": "#363b47",
+      "editorSuggestWidget.background": "#292d35",
+      //? Menu =======================
+      "menu.background": "#2e323c",
+      "menu.selectionBackground": "#273e77d0"
+    }
+  },
+
+  //? TODO Highlight =======================================================================
+  "todohighlight.isEnable": true,
+  "todohighlight.isCaseSensitive": true,
+  "todohighlight.keywords": [
+    "DEBUG:",
+    "REVIEW:",
+    {
+      "text": "NOTE:",
+      "color": "#ff0000",
+      "backgroundColor": "yellow",
+      "overviewRulerColor": "grey"
+    },
+    {
+      "text": "HACK:",
+      "color": "#000",
+      "isWholeLine": false
+    },
+    {
+      "text": "TODO:",
+      "color": "red",
+      "border": "1px solid red",
+      "borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
+      "backgroundColor": "rgba(0,0,0,.2)"
+      //other styling properties goes here ...
+    }
+  ],
+  "editor.fontLigatures": false,
+  "window.menuBarVisibility": "compact",
+  "editor.inlayHints.enabled": "off",
+  "diffEditor.wordWrap": "off",
+  "editor.guides.bracketPairs": false,
+  "cSpell.customDictionaries": {},
+  "tabnine.experimentalAutoImports": true
+  // "todohighlight.defaultStyle": {
+  //   "color": "red",
+  //   "backgroundColor": "#ffab00",
+  //   "overviewRulerColor": "#ffab00",
+  //   "cursor": "pointer",
+  //   "border": "1px solid #eee",
+  //   "borderRadius": "2px",
+  //   "isWholeLine": true
+  //   other styling properties goes here ...
+  // }
+  //?=======================================================================
+  // "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+  // "prettier.bracketSameLine": false,
+  // "editor.hover.enabled": false,
+  // "editor.colorDecorators": false
+}
