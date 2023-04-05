@@ -77,6 +77,7 @@
     "editorGroupHeader.tabsBackground": "#2e323de3",
     "activityBar.background": "#363b47",
     "sideBar.background": "#282c34",
+    "sideBar.border": "#37454f8e",
     "sideBarSectionHeader.background": "#2e323de3",
     "list.hoverBackground": "#273e77d0",
     "list.hoverForeground": "#fff",
@@ -132,12 +133,17 @@
     }
   ],
   "editor.fontLigatures": false,
-  "window.menuBarVisibility": "compact",
   "editor.inlayHints.enabled": "off",
   "diffEditor.wordWrap": "off",
   "editor.guides.bracketPairs": false,
   "cSpell.customDictionaries": {},
-  "tabnine.experimentalAutoImports": true
+  "tabnine.experimentalAutoImports": true,
+  "window.menuBarVisibility": "compact",
+  "editor.tokenColorCustomizations": {},
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  }
   // "todohighlight.defaultStyle": {
   //   "color": "red",
   //   "backgroundColor": "#ffab00",
@@ -154,3 +160,7 @@
   // "editor.hover.enabled": false,
   // "editor.colorDecorators": false
 }
+//?=======================================================================
+// "editor.hideCursorInOverviewRuler": true,
+// "editor.selectionHighlight": true,
+// "editor.matchBrackets": "never",
