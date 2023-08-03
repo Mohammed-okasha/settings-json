@@ -39,14 +39,18 @@
   "files.trimFinalNewlines": true,
   "auto-rename-tag.activationOnLanguage": ["*"],
   //? Emmet =====================================================
-  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
   "emmet.excludeLanguages": ["markdown"],
   "javascript.preferences.jsxAttributeCompletionStyle": "auto",
   "typescript.preferences.jsxAttributeCompletionStyle": "auto",
   "emmet.triggerExpansionOnTab": true,
   "emmet.showSuggestionsAsSnippets": true,
   "emmet.syntaxProfiles": {
-    "javascript": "jsx"
+    "javascript": "jsx",
+    "typescript": "tsx"
   },
   //? JS And TS Hints ==========================================================
   "javascript.inlayHints.parameterNames.enabled": "all",
@@ -138,12 +142,17 @@
   "editor.guides.bracketPairs": false,
   "cSpell.customDictionaries": {},
   "tabnine.experimentalAutoImports": true,
-  "window.menuBarVisibility": "compact",
   "editor.tokenColorCustomizations": {},
   "launch": {
     "configurations": [],
     "compounds": []
-  }
+  },
+  "errorLens.statusBarMessageEnabled": true,
+  "editor.indentSize": "tabSize",
+  "terminal.integrated.autoReplies": {},
+  "cSpell.userWords": ["visivle"],
+  "window.menuBarVisibility": "compact",
+  "cSpell.languageSettings": []
   // "todohighlight.defaultStyle": {
   //   "color": "red",
   //   "backgroundColor": "#ffab00",
@@ -164,3 +173,4 @@
 // "editor.hideCursorInOverviewRuler": true,
 // "editor.selectionHighlight": true,
 // "editor.matchBrackets": "never",
+
