@@ -1,0 +1,74 @@
+{
+	"console.log": {
+		"scope": "javascript, typescript, javascriptreact",
+		"prefix": "cl",
+		"body": [
+			"console.log($1)",
+		],
+		"description": "console.log()"
+	},
+
+  "react arrow function component": {
+    "prefix": "rafc",
+    "body": [
+      // "import React from \"react\"",
+      // "",
+      "const $TM_FILENAME_BASE = () => {",
+      "  return (",
+      "    <div>",
+      "      $TM_FILENAME_BASE",
+      "    </div>",
+      "  )",
+      "};",
+      "",
+      "export default $TM_FILENAME_BASE;",
+      // ""
+    ],
+    "description": "React Arrow Function Component"
+  },
+
+	"Arrow Function": {
+		"scope": "javascript, typescript, javascriptreact",
+		"prefix": "arFn",
+		"body": [
+			"const${1: functionName} = ($2) => {",
+			"  $3",
+			"}",
+		// ""
+		],
+		"description": "Arrow Function"
+	},
+
+	"Array Method": {
+		"scope": "javascript, typescript, javascriptreact",
+		"prefix": "arrMth",
+		"body": [
+			"${1|foeEach,map,filter,reduce,find,findIndex,some,every|}((${2:item}) => {",
+			"  $3",
+			"})"
+		],
+		"description": "Array Method"
+	},
+
+	"axios Request": {
+		"scope": "javascript, typescript, javascriptreact",
+		"prefix": "axReq",
+		"body": [
+			"axios.${1|get,post,put,delete|}('${2:url}')",
+			".then((res.data) => {",
+			"  console.log(res.data);",
+			"})",
+			".catch((error) => {",
+			"  console.log(error);",
+			"})"
+		],
+		"description": "axios Request"
+	},
+
+"importCSSModule": {
+    "prefix": "csm",
+    "scope": "javascript, typescript, javascriptreact",
+    "body": ["import styles from './${TM_FILENAME_BASE}.module.css'"],
+    "description": "Import CSS Module as `styles`"
+  },
+}
